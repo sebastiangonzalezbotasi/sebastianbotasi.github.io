@@ -1,0 +1,46 @@
+.link-after {
+  content: "";
+  display: block;
+  height: 0.15em;
+  background: $primary;
+}
+
+.nav-link,
+.navbar-brand {
+  &::after {
+    @extend .link-after;
+    width: 0;
+    transition: width 0.35s;
+  }
+
+  
+}
+
+.nav-item.active {
+  font-weight: bold;
+
+  &::after {
+    @extend .link-after;
+    width: 100% !important;
+  }
+}
+
+.navbar-brand {
+  /*margin-bottom: -14px;*/
+  padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-right: 0rem;
+  /*  font-size: 1rem;*/
+  &::after {
+    margin-top: -0.25em;
+  }
+}
+
+.navbar-toggler-icon {
+    width: 1.2em !important;
+    height: 1.2em !important;
+}
+
+.navbar-toggler {
+  border-style: none !important;
+}

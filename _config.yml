@@ -1,0 +1,34 @@
+### Site Settings ###
+title               : Sebastian G. Botasi
+description         : Personal website
+
+
+### Author Info ###
+author:
+  name              : Sebastian G. Botasi
+  nameshort         : Sebastian
+  rol               : Research Ops
+  pais              : Argentina
+  empresa           : Despegar.com
+  empresaUrl        : http://www.despegar.com
+  # behance           : your_username
+  # dribbble        : your_username
+  email             : username@domain.com
+  #facebook          : your_username
+  # github            : your_username
+  # gitlab          : your_username
+  instagram       : _el_bota
+  # kaggle          : your_username
+  linkedin          : sebastiangonzalezbotasi
+  medium            : sebastian.gonzalez.botasi
+  # soundcloud      : your_username
+  # spotify         : your_username
+  # stackoverflow   : your_user_id
+  # tumblr          : your_username.tumblr.com
+  # twitch          : your_username
+  # twitter           : your_username
+  # vimeo           : your_username
+  # youtube         : your_channel_name
+
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/index.md

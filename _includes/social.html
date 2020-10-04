@@ -1,0 +1,16 @@
+<div class="container-fluid justify-content-center separacion">
+
+
+  {% for account in site.author %}
+
+    {%- assign service_name = account[0] -%}
+    {%- assign service_data = site.data.social-media[service_name] -%}
+    {%- if service_data -%}
+    <a class="social mx-1"  target="_blank" href="{{ service_data.url }}{{ account[1] }}">
+      <i class="{{ service_data.icon }} fa-1x"></i>
+    </a>
+    {%- endif -%}
+
+  {% endfor %}
+
+</div>
