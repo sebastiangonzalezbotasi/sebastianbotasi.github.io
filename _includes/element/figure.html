@@ -1,0 +1,8 @@
+<div class="col-lg-6 galeriaImagen">
+  <figure class="figure w-100">
+    <img src="{{ image.imageURL }}" class="figure-img img-fluid rounded" alt="{{ image.alt | default: image.caption }}">
+    {%- if include.caption -%}
+      <figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>
+    {%- endif -%}
+  </figure>
+</div>
